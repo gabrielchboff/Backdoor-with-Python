@@ -1,5 +1,5 @@
 """
-This is server for TCP connection
+This is a server for TCP connection
 Execute on your pc
 """
 
