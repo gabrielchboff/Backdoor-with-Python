@@ -1,7 +1,7 @@
 """
 This is a server for TCP connection
 Execute on your pc
-"""
+
 
 
 #!usr/bin/python
@@ -13,7 +13,6 @@ import socket
 
 
 class server(object):
-	"""docstring for server"""
 	def __init__(self):
 		ip.self = ''
 		port.self = 8684
@@ -50,5 +49,5 @@ class server(object):
 
 		clt_handler = thread to handler incoming data
 		clt_handler.start()
-
+"""
 			
